@@ -1,7 +1,7 @@
 var define = require("define-properties")
-var polyfill = require(".")
+var polyfill = require("ununcurry-this-x")(require("."))
 var $ArrayPrototype = require("es-intrinsic-cache")("Array.prototype")
-var isNotEqual = require("@not-js/not")("@10xly/strict-equals")
+var isNotEqual = require("@not-js/not")(require("@10xly/strict-equals"))
 
 define(
   $ArrayPrototype,

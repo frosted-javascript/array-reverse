@@ -1,6 +1,6 @@
 {
   "name": "@frosted/array-reverse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reverse an array.",
   "keywords": [
     "10xly",
@@ -40,7 +40,8 @@
     "is-empty-array": "^1.1.0",
     "is-not-negative": "^1.0.3",
     "lodash.stubarray": "^4.13.0",
-    "subtract": "^0.0.3"
+    "subtract": "^0.0.3",
+    "ununcurry-this-x": "^1.0.0"
   },
   "devDependencies": {
     "mocha": "^11.7.5"
