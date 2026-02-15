@@ -1,0 +1,48 @@
+{
+  "name": "@frosted/array-reverse",
+  "version": "1.0.0",
+  "description": "Reverse an array.",
+  "keywords": [
+    "10xly",
+    "mit",
+    "is-hundred",
+    "is-ten-thousand"
+  ],
+  "homepage": "https://github.com/frosted-javascript/array-reverse#readme",
+  "bugs": {
+    "url": "https://github.com/frosted-javascript/array-reverse/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frosted-javascript/array-reverse.git"
+  },
+  "license": "MIT",
+  "author": "10x'ly Made",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "@10xly/is-instance-of": "^1.0.0",
+    "@10xly/strict-equals": "^1.0.1",
+    "@is-(unknown)/is-array": "^1.0.2",
+    "@not-js/not": "^1.1.1",
+    "@positive-numbers/one": "^3.0.0",
+    "bail": "^1.0.5",
+    "define-properties": "^1.2.1",
+    "es-error-intrinsics": "^1.0.1",
+    "es-intrinsic-cache": "^1.0.4",
+    "es-logical-and-operator": "^1.0.0",
+    "es-logical-not-operator": "^1.0.0",
+    "es-logical-nullish-coalescing-operator": "^1.0.0",
+    "immediate-error": "^2.0.0",
+    "is-empty-array": "^1.1.0",
+    "is-not-negative": "^1.0.3",
+    "lodash.stubarray": "^4.13.0",
+    "subtract": "^0.0.3"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.5"
+  }
+}
