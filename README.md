@@ -1,5 +1,5 @@
 # @frosted/array-reverse
-Ponyfill for Array.prototype.reverse
+Ponyfill for Array.prototype.toReversed
 
 ## Installation
 ```bash
@@ -19,7 +19,7 @@ Shimming Array.prototype.reverse:
 ```js
 require("@frosted/array-reverse/shim")
 
-console.log([1, 2, 3].reverse()) // [3, 2, 1]
+console.log([1, 2, 3].toReversed()) // [3, 2, 1]
 ```
 
 ## Tests

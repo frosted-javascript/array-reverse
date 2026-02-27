@@ -5,8 +5,8 @@ var isNotEqual = require("@not-js/not")(require("@10xly/strict-equals"))
 
 define(
   $ArrayPrototype,
-  { reverse: polyfill },
-  { reverse: function () { return isNotEqual($ArrayPrototype.reverse, polyfill) } }
+  { toReversed: polyfill },
+  { toReversed: function () { return isNotEqual($ArrayPrototype.toReversed, polyfill) } }
 )
 
 module.exports = polyfill
